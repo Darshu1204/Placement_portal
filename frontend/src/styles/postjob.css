@@ -1,0 +1,191 @@
+.postjob-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    position: relative;
+}
+
+
+.postjob-img {
+    width: 100%;
+    height: 89vh;
+    opacity: 0.7;
+}
+
+.postjob-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    object-fit: cover;
+    box-sizing: border-box;
+    background-color: rgb(36, 36, 104, 0.9);
+    background-color: white;
+    color: black;
+    min-height: 89vh;
+}
+
+.post-form {
+    width: 100%;
+    padding: auto;
+    padding: 2rem;
+    border-radius: 5px;
+    border-radius: 15px;
+}
+
+.post-form h2 {
+    text-align: center;
+}
+
+.post-form input,
+.post-form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    background: transparent;
+    display: block;
+    font-size: 18px;
+    border: none;
+    box-shadow: 2p 2px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.post-form h2 {
+    color: black;
+    text-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.6);
+    margin-bottom: 25px;
+}
+
+/* .post-form div {
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+} */
+
+.post-form input,
+.post-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.post-form input,
+.post-form textarea {
+    color: black;
+}
+
+.post-form input::placeholder,
+.post-form textarea::placeholder {
+    color: black;
+}
+
+.post-form textarea {
+    resize: vertical;
+}
+
+.post-form button {
+    display: block;
+    padding: 0.5rem 1.5rem;
+    background-color: #221269;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.post-form button:hover {
+    background-color: #221298;
+}
+
+.postjob-footer {
+    width: 100vw;
+    text-align: center;
+    padding: 1rem;
+    background-color: #0a032e;
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+
+}
+
+/* .postjob-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+}
+
+.postjob-img {
+    width: 100%;
+    height: 89vh;
+    opacity: 0.7;
+}
+
+.postjob-content {
+    display: flex;
+    flex: 1;
+    background-color: rgba(36, 36, 104, 0.9);
+    background-color: rgba(255, 255, 255,0.7);
+    color: black;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-form {
+    width: 80%;
+    max-width: 600px;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 0.1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow:2px 3px 3px  rgba(0, 0, 0, 0.1);
+}
+
+.post-form input,
+.post-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.post-form h2 {
+    color: black;
+    margin-bottom: 25px;
+}
+
+.post-form button {
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+    background-color: #221269;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post-form button:hover {
+    background-color: #221298;
+}
+
+.postjob-footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #0a032e;
+    color: #fff;
+} */

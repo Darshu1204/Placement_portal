@@ -1,0 +1,81 @@
+.viewjob-container{
+    width:100vw;
+    height: 100vh;
+}
+.viewjob-title{
+    text-align: center;    
+    color:rgb(113, 110, 110);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.card-holder{
+    display: flex;
+    justify-content: space-around;
+}
+.viewjob-card{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: grid;
+    grid-template-columns: repeat(3);
+    width:30%;
+    column-gap: 5px;
+    row-gap: 10px;
+    box-shadow: 2px 3px 4px 2px rgba(0, 0, 0, 0.5);
+    border-radius:7px;
+}
+
+.viewjob-card .card-content{
+    color:rgba(255, 255, 255,0.9);
+    color: black;
+}
+.viewjob-card .card-text{
+    color:black;
+    padding: 3px 0px;
+}
+.appliedjobBtn{
+    margin: 10px;
+    margin-left: 0;
+    width: 40%;
+    background-color: rgb(42, 72, 172);
+}
+
+
+
+
+
+
+
+
+/*
+.vj-content{
+    height: 100%;
+    background-color: #fff;
+}
+.job-list {
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} 
+.job-list ul{
+    display: flex;
+    justify-content: space-between;
+}
+.job-list ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    width:30vw;
+    margin-top: 20px;
+    border-radius:5px;
+    box-shadow: 4px 4px 3px 3px rgba(0, 0, 0, 0.3);
+}
+.job-list ul li input[type="radio"]{
+    margin-right: 10px;
+}
+.job-list ul li label {
+    display:inline-block ;
+    margin-left: 10px;
+    vertical-align: middle;
+} */

@@ -1,0 +1,163 @@
+/* html {
+    height: 100%;
+    width: 100%;
+}
+.admin-container{
+    width:100vw;
+    height:100vh;
+    display :flex;
+    flex-direction: column;
+}
+.areg-container {
+    flex:1;
+    width: 100vw;
+    background-color: rgb(75, 81, 219);
+    color: black;
+}
+
+.areg-container h2 {
+    border: 1px solid grey;
+    color: white;
+    padding: 10px 0px;
+    background-color: rgb(33, 42, 219);
+    text-align: center;
+}
+
+.areg-container form div {
+    display: flex;
+    margin: 15px;
+}
+
+.areg-container form div label{
+    width:fit-content;
+    padding: 4px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+.areg-container form div input {
+    width: 30%;
+    outline: none;
+    border: none;
+    padding: 4px;
+    background-color: transparent;
+    box-shadow: 2px 2px 3px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    color: black;
+}
+
+.areg-container form div input::placeholder {
+    color: black;
+}
+
+.fullname input {
+    width: 35%;
+    margin-right:10px;
+}
+
+.areg-container form div button,
+.btn div button {
+    background-color: rgba(255, 0, 0, 0.7);
+    color: white;
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.adminlogin-link{
+    display:flex;
+    width:40%;
+    justify-content: center;
+    align-items: center;
+    color:#000;
+}
+.adminlogin-link a{
+    font-weight: 900;
+    font-size:20px;
+}
+.adminlogin-link a:hover{
+    color:tomato;
+}
+ */
+
+
+
+
+
+
+
+
+.admin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .areg-container {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .areg-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .fullname {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .fullname input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .areg-container>form>div>input[type="text"],
+  .areg-container>form>div>input[type="email"],
+  .areg-container>form>div>input[type="password"],
+  .areg-container>form>div>input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .adminlogin-link {
+    margin-top: 15px;
+    text-align: center;
+  }  
+  .adminlogin-link small {
+    margin-right: 5px;
+  }
+  
+  .adminlogin-link a{
+    font-size: 1.2rem;
+  }
+  
+  .adminlogin-link a:hover {
+    color:tomato
+  }  
+  

@@ -1,0 +1,121 @@
+/* .update-form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input[type="file"] {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.resume button {
+    display: block;
+    padding: 0.5rem;
+    background-color: #0d0e7c;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.resume button:hover {
+    background-color: #ff9900;
+} */
+.updateResume{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.resumeSection{
+    width:100vw;
+    display: flex;
+    flex:1;
+    background-color: rgb(63, 55, 55);
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+.update-form {
+    color: black;
+    width: 100vw;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.update-form h2{
+    text-align: center;
+    color: black;
+}
+
+.update-form form{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.update-form .buildCheck {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding:20px;
+}
+.buildCheck a{
+    margin: 0px 20px;
+    background-color: lightcyan;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.buildCheck a:hover{
+    color:gray;
+}
+
+.update-form  a {
+    align-content: center;
+}
+.update-form form button:hover {
+    background-color: #ff9900;
+    background-color: #2d13ac;;
+}
+
+
+.update-form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+.update-form form div  label i{
+    padding: 5px;
+
+}
+.update-form form div  label {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px; 
+  }
+  
+.update-form form div input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0px;
+  }
+  
+.update-form form div input[type="file"]:hover {
+    background-color: #f0f0f0;
+  }

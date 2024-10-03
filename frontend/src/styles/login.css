@@ -1,0 +1,107 @@
+.studentlogin-holder,.adminlogin-holder{
+  min-height: 100vh;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+
+.studentlogin-container,.adminlogin-container {
+  width: 30vw;
+  border-radius: 15px;
+  box-shadow: 3px 4px 4px 3px rgba(0, 0, 0, 0.3);
+  background-color: rgba(71, 71, 71,0.4);
+}
+.studentlogin-container>h1,
+.adminlogin-container>h1{
+  text-align: center;
+  color: black;
+  padding: 10px;
+}
+
+.studentlogin-form ,.adminlogin-form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+/* .adminlogin-form>div{
+  margin-bottom: 10px;
+}
+
+.adminlogin-form>div>div>div>input{
+  border: none;
+  padding:0.5rem 1.5rem;
+} */
+.studentlogin-form>div>input ,
+.adminlogin-form>div>input,
+.studentlogin-form>div>input:-webkit-autofill
+.adminlogin-form>div>input:-webkit-autofill{
+  width: 100%;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 2rem;
+  color: rgb(107, 107, 107);
+}
+.studentlogin-form > div > input:-webkit-autofill,
+.adminlogin-form > div > input:-webkit-autofill {
+  -webkit-text-fill-color: rgb(107, 107, 107); /* Set text color for autofill */
+}
+
+.login-inputfield::placeholder,
+.login-inputfield:-webkit-input-placeholder  {
+  color:white;
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+.adminlogin-form>p{
+  text-align: center;
+  padding: 10px;
+}
+#submitBtn {
+  display: flex;
+  margin: 1.5rem auto;
+  justify-content: center;
+  width: 40%;
+  border: none;
+  background-color: rgb(29, 54, 179);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  box-shadow: inset white;
+  margin-top: 1rem;
+  
+}
+
+.signup-link {
+  margin: 0.6rem 1.5rem;
+  padding: 1rem 1.5 rem;
+  width: 60%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 800;
+  font-size: 1.35em;
+}
+
+.signup-link>a{
+  text-decoration: none;
+  color:rgb(53, 53, 188);
+}
+
+
+@media screen and (max-width:750px) {
+  .studentlogin-container,.adminlogin-container{
+    width: 90vw;
+  }
+}

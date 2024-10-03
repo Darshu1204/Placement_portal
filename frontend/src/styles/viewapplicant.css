@@ -1,0 +1,30 @@
+/* Reset some default styles */
+/* body, h1, h2, p, table, th, td, a {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    color: inherit;
+} */
+.main-viewApplicant{
+    height: 100%;
+    background-color: #fff;
+}
+.applicant-list {
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+table th, table td {
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+

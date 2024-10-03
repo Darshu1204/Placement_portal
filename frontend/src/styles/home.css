@@ -1,0 +1,136 @@
+.home-nav {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: rgb(37, 35, 35);
+}
+
+.home-nav>ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 10px;
+}
+
+.home-nav>ul>img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+}
+
+.home-nav>ul>li {
+    margin: 0 5px;
+    padding: 10px 15px;
+    font-size:1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.home-nav>ul>li>a{
+    color:white;
+}
+
+.home-nav>ul>li:hover {
+    background-color: #555;
+    border-radius: 10px;
+    /* font-size: 1.2rem;
+    transition: all ease-in-out;
+    transition: all; */
+}
+
+.home-container {
+    width: 100vw;
+    min-height: 100vh;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-content {
+    font-family: Arial, sans-serif;
+    height: calc(100% - 50px);
+    background: linear-gradient(to left, lightblue, lightpink);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-content>main>section{
+    text-align: center;
+}
+.home-content>main>section>h2{
+    padding: 10px;
+}
+
+.row{
+    display: flex;
+}
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.card>img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #333;
+}
+
+.table-container{
+    width: 95vw;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.table-container>h1{
+    text-align: center;
+    padding: 10px;
+}
+.table-container th,.table-container td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-container th {
+    background-color: #f2f2f2;
+}
+.home-footer{
+    position: absolute;
+    padding: 10px;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    background: #3d3737;
+    color: white;
+    width:100vw;
+}
+@media screen and (max-width:750px) {
+    .row{
+        display: block;
+    }
+}
